@@ -1,10 +1,19 @@
 @{
-    ViewData["Title"] = "Welcome";
+    ViewData["Title"] = "Welcome123";
 }
 
-<h2>Welcome</h2>
+<h2>@ViewData["Title"]</h2>
 
 <p>Welcome to our View Template!</p>
 <div class="alert alert-primary" role="alert">
-  Hi, we use boostrap! Welcome to our View Template!
+@ViewData["Message"]!
 </div>
+<div class="alert alert-secondary" role="alert">
+Your numtimes is @ViewData["NumTimes"]!
+</div>
+
+<button class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-secondary">Left</button>
+  <button type="button" class="btn btn-secondary">Middle</button>
+  <button type="button" class="btn btn-secondary">Right</button>
+</button>
