@@ -1,6 +1,6 @@
 # dotnetStudy
 
-##.net core 2.2.6
+## .net core 2.2.6
 
 
 ```
